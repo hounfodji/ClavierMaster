@@ -52,4 +52,4 @@ function lancerJeu() {
   console.log(afficherResultat(scoreFinal, n));
 }
 
-lancerJeu();
+
