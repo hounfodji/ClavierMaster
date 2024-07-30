@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClavierMaster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>AzerType</title>
 </head>
+
 <body>
-    <script src="scripts/config.js"></script>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/main.js"></script>
+    <header>
+        <h1>AzerType</h1>
+        <h2>L'application pour écrire plus vite!</h2>
+        <h3>AzerType est une application en ligne pour apprendre à taper plus vite au clavier :)</p>
+    </header>
+    <main>
+        <div id="appBoardOption">
+            <p>Choisissez votre option et et tapez la proposition qui s'affiche dans le champ en-dessous. </p>
+            <div id="appBoardOptionSource">
+                <input type="radio" name="mots" id="mots">
+                <label for="mots">Mots</label>
+                <input type="radio" name="phrases" id="phrases">
+                <label for="phrases">Phrases</label>
+            </div>
+        </div>
+        <div id="appBoardProposition">
+            <p>Cachalot</p>
+        </div>
+        <div id="appBoardUser">
+            <input type="text" id="appBoardUserInput">
+            <button id="btnValider">Valider</button>
+        </div>
+        <div id="appBoardScore">
+            Votre score : <span>0 / 0</span>
+        </div>
+        <div id="appBoardShare">
+            <button>Partager</button>
+        </div>
+    </main>
+    <footer>
+        @Copyright : hospice-dev.
+    </footer>
+
+    <!-- Popup de partage -->
+    <di id="appPopup">
+        <div>Partager votre score</div>
+        <form action="">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" placeholder="Votre nom">
+            <label for="email">Avec qui voulez-vous partagez votre score?</label>
+            <input type="email" id="email" placeholder="hospicehounfodji@gmail.com">
+            <button id="btnEnvoyer">Envoyer</button>
+        </form>
+        </div>
+        <!-- <script src="scripts/config.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/main.js" defer></script> -->
 </body>
+
 </html>

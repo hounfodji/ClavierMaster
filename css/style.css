@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+header{
+    margin: 30px;
+    text-align: center;
+    color: #f76c5e;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+header h2{
+    font-size: 30px;
+   margin-bottom: 20px;
+}
+
+header h3{
+    font-size: 13px;
+   margin-bottom: 20px;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #f68e5f;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#appBoardOption p{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+#appBoardOptionSource label{
+    margin-right: 20px;
+}
+
+#appBoardProposition{
+    margin: 20px 0 15px 0;
+    background-color: white;
+    color: #f76c5e;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#appBoardProposition p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#appBoardUser{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#appBoardUser input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #f76c5e;
+    font-size: 17px;
+}
+
+#appBoardScore{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#appBoardShare button{
+    margin: 20px 0;
+    padding: 6px;
+}
+
+footer{
+    background-color: #f68e5f;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    position: sticky;
+    margin-top: 30px;
+}
